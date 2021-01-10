@@ -13,6 +13,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">TaxConsult.Accountant!</a>
         </h1>
+        <h2>Sibiu</h2>
       </main>
 
       <footer className={styles.footer}>
