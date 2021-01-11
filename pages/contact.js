@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import HeaderSection from '../components/HeaderSection'
+import NavigationSection from '../components/NavigationSection'
 
 export default function Contact() {
   return (
@@ -7,12 +9,8 @@ export default function Contact() {
         <title>Contact</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main>
-        <h1>
-          Contact
-        </h1>
-      </main>
+      <NavigationSection />
+      <HeaderSection pageTitle={'Contact'} />
     </div>
   )
 }
